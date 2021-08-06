@@ -3,7 +3,7 @@ package com.orhanobut.hawk;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-final class SharedPreferencesStorage implements Storage {
+public final class SharedPreferencesStorage implements Storage {
 
   private final SharedPreferences preferences;
 
